@@ -1,5 +1,7 @@
-#Pinteresting 
+#Pinteresting (kinda)
 
-This is my first rails app. I'm building it with the help of One Month Rails
+This is my first rails app. I'm building it with the help of One Month Rails, using Sublime editor, my command editor, and GitHub. This is basically a joke to every coder I know... but it's badassery to me :P
 
-by Gregory Gopman about.me/GGopman
+I should probably buy private repos so no one can read this and make fun of me...
+
+by Gregory Gopman wwww.gregorygopman.com
