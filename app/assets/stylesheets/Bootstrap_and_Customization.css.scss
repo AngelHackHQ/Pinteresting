@@ -1,1 +1,18 @@
-@import 'bootstrap' ;
+$body-bg:    #FFE700;
+$navbar-default-bg: #510FAD;
+$navbar-default-link-color: #ecf0f1;
+$navbar-default-link-hover-color: #FFE700;
+$navbar-default-brand-hover-color: #FFE700;
+$jumbotron-bg: #a101a6;
+
+.center {
+	text-align: center; 
+}
+
+.navbar-brand { font-weight: bold; }
+.navbar-nav 	{ font-size: 16; }
+
+
+@import 'bootstrap';
+
+
