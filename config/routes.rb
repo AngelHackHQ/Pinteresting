@@ -1,7 +1,7 @@
 Pinteresting::Application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
-  get "GGOP" => "pages#ggop"
+  get "ggop" => "pages#ggop"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

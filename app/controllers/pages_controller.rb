@@ -4,4 +4,8 @@
 
   def about
   end
+
+  def GGOP
+  end
+  
 end
