@@ -8,4 +8,7 @@
   def GGOP
   end
   
+  def laura
+  end
+
 end
