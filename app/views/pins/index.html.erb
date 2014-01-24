@@ -1,6 +1,10 @@
 <%= render 'pages/home' unless user_signed_in? %>
+<header>
+  <br><center><h1> Welcome to the Pin Board!</h1></center></br>
+  </header>
 
 <div id="pins" class="transitions-enabled">
+  
   <% @pins.each do |pin| %>
     <div class="box panel panel-default">
         <%= link_to image_tag(pin.image.url(:medium)), pin %>
@@ -17,3 +21,7 @@
     </div>
 <%end%> 
 </div>
+<div class=center>
+<%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+</div>
+
