@@ -1,6 +1,6 @@
 <%= render 'pages/home' unless user_signed_in? %>
 <header>
-  <br><center><h1> Welcome to the Pin Board!</h1></center></br>
+  <br><center><h1> Welcome to the Pin Board!</h1></center></br> 
   </header>
 
 <div id="pins" class="transitions-enabled">
@@ -10,11 +10,11 @@
         <%= link_to image_tag(pin.image.url(:medium)), pin %>
         <div class="panel-body">
           <%= pin.description %>
-          <%= pin.user.email if pin.user %>
+          <p> <%= pin.user.name %></P>
           <% if pin.user == current_user%>
           <div class= actions><p>
             <%= link_to raw('<span class="glyphicon glyphicon-pencil"></span>Edit'), edit_pin_path(pin) %>
-            <%= link_to raw('<span class="glyphicon glyphicon-remove"></span> Remove') , pin, method: :delete, data: { confirm: 'Are you sure?' } %></P>
+            <%= link_to raw('<span class="glyphicon glyphicon-trash"></span> Remove') , pin, method: :delete, data: { confirm: 'Are you sure?' } %></P>
           </div>
           <%end%>
         </div>  
